@@ -1,33 +1,44 @@
-# 📦 Frontend - User Management App
+# User Management - Client
 
-Este é o frontend da aplicação de gerenciamento de usuários, desenvolvido com **Next.js 15** e executado com **Node.js 22+**.
+## A Web Application built using Next.js, React Query, and TypeScript
 
-## 🚀 Tecnologias
+## Technologies
 
-- [Next.js 15](https://nextjs.org/)
-- [React 18+](https://react.dev/)
-- [TypeScript](https://www.typescriptlang.org/)
-- [React Query (TanStack)](https://tanstack.com/query/latest)
-- [Axios](https://axios-http.com/)
-- [CSS Modules](https://nextjs.org/docs/pages/building-your-application/styling/css-modules)
+- React 18
+- Next.js 15
+- React Query
+- TypeScript
 
-## ✅ Pré-requisitos
+## Running the project
 
-- **Node.js 22 ou superior**
-- **npm** ou **yarn**
+To run this project, you need to use *Node.js 20* and *Yarn*
 
-## 📦 Instalação
+### Clone the Project
+```
+git clone https://github.com/ThiagoMartinsSaraiva/user-management-client
+```
 
-```bash
-# Clone o repositório
-git clone https://github.com/seu-usuario/seu-repo.git
+### Install Dependencies
+```
+yarn
+```
 
-# Acesse a pasta do projeto
-cd nome-do-projeto
+### Running the Project
+```
+yarn start
+```
 
-# Instale as dependências
-npm install
-# ou
-yarn install
+## Description
+This application was built to practice and demonstrate my knowledge of modern frontend development using React and Next.js.  
+It’s focused on *performance* and *reactivity, using **React Query* for async state management and *TypeScript* for type safety.
 
-# vai estar rodando na porta 3000
+---
+
+## Main Challenges:
+- Optimizing API calls with React Query and add Frontend cache
+
+## Next Steps
+- Add micro BFF Api on Next to improve SSR
+- Add unit and component tests
+- Add E2E tests
+- Improve componentization
